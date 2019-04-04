@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jorgebotto/github/dynarmic
+-- Target architecture: x86_64
+-- Boost version: 1.69.0
+-- Version: 5.3.0
+-- Build type: Debug
+-- CXX_STANDARD: 17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jorgebotto/github/dynarmic/cmake-build-debug

@@ -211,6 +211,9 @@ add_library(dynarmic
     ir_opt/dead_code_elimination_pass.cpp
     ir_opt/passes.h
     ir_opt/verification_pass.cpp
+
+
+    backend/A64/Registers.cpp
 )
 
 if (ARCHITECTURE_x86_64)
