@@ -136,32 +136,32 @@ dynarmic/fast:
 	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/build
 .PHONY : dynarmic/fast
 
-backend/A64/Registers.o: backend/A64/Registers.cpp.o
+backend/a64/Emit/XInstrEmitter.o: backend/a64/Emit/XInstrEmitter.cpp.o
 
-.PHONY : backend/A64/Registers.o
+.PHONY : backend/a64/Emit/XInstrEmitter.o
 
 # target to build an object file
-backend/A64/Registers.cpp.o:
-	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/A64/Registers.cpp.o
-.PHONY : backend/A64/Registers.cpp.o
+backend/a64/Emit/XInstrEmitter.cpp.o:
+	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/a64/Emit/XInstrEmitter.cpp.o
+.PHONY : backend/a64/Emit/XInstrEmitter.cpp.o
 
-backend/A64/Registers.i: backend/A64/Registers.cpp.i
+backend/a64/Emit/XInstrEmitter.i: backend/a64/Emit/XInstrEmitter.cpp.i
 
-.PHONY : backend/A64/Registers.i
+.PHONY : backend/a64/Emit/XInstrEmitter.i
 
 # target to preprocess a source file
-backend/A64/Registers.cpp.i:
-	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/A64/Registers.cpp.i
-.PHONY : backend/A64/Registers.cpp.i
+backend/a64/Emit/XInstrEmitter.cpp.i:
+	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/a64/Emit/XInstrEmitter.cpp.i
+.PHONY : backend/a64/Emit/XInstrEmitter.cpp.i
 
-backend/A64/Registers.s: backend/A64/Registers.cpp.s
+backend/a64/Emit/XInstrEmitter.s: backend/a64/Emit/XInstrEmitter.cpp.s
 
-.PHONY : backend/A64/Registers.s
+.PHONY : backend/a64/Emit/XInstrEmitter.s
 
 # target to generate assembly for a file
-backend/A64/Registers.cpp.s:
-	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/A64/Registers.cpp.s
-.PHONY : backend/A64/Registers.cpp.s
+backend/a64/Emit/XInstrEmitter.cpp.s:
+	cd /Users/jorgebotto/github/dynarmic/cmake-build-debug && $(MAKE) -f src/CMakeFiles/dynarmic.dir/build.make src/CMakeFiles/dynarmic.dir/backend/a64/Emit/XInstrEmitter.cpp.s
+.PHONY : backend/a64/Emit/XInstrEmitter.cpp.s
 
 backend/x64/a32_emit_x64.o: backend/x64/a32_emit_x64.cpp.o
 
@@ -4088,9 +4088,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... dynarmic"
-	@echo "... backend/A64/Registers.o"
-	@echo "... backend/A64/Registers.i"
-	@echo "... backend/A64/Registers.s"
+	@echo "... backend/a64/Emit/XInstrEmitter.o"
+	@echo "... backend/a64/Emit/XInstrEmitter.i"
+	@echo "... backend/a64/Emit/XInstrEmitter.s"
 	@echo "... backend/x64/a32_emit_x64.o"
 	@echo "... backend/x64/a32_emit_x64.i"
 	@echo "... backend/x64/a32_emit_x64.s"

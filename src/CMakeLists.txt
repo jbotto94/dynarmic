@@ -213,8 +213,13 @@ add_library(dynarmic
     ir_opt/verification_pass.cpp
 
 
-    backend/A64/Registers.cpp
-)
+        backend/a64/Emit/Registers.h
+        backend/a64/Emit/RegisterOps.h
+        backend/a64/Emit/Common.h
+        backend/a64/Emit/XInstrEmitter.h
+        backend/a64/Emit/XInstrEmitter.cpp
+
+        )
 
 if (ARCHITECTURE_x86_64)
     target_sources(dynarmic PRIVATE
